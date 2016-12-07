@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.multipart.maxSize" value="102400000"></constant>
+
+	<package name="/" namespace="/" extends="struts-default">
+
+		<action name="ManageChAction*" class="com.LS.action.ManageChAction"
+			method="{1}">
+			<result name="chenggong">/index.html</result>
+		</action>
+		<action name="ManageAtAction*" class="com.LS.action.ManageAtAction"
+			method="{1}">
+			<result name="chenggong">/index.html</result>
+			<result name="addinput">/Manager/AtAdd.jsp</result>
+		</action>
+	</package>
+	<package name="/jsp" namespace="/jsp" extends="struts-default">
+		<action name="AtlasAction*" class="com.LS.action.AtlasAction"
+			method="{1}">
+			<result name="chenggong">/jsp/atlas.jsp</result>
+		</action>
+		<action name="ListAction*" class="com.LS.action.ListAction"
+			method="{1}">
+			<result name="chenggong">/jsp/list.jsp</result>
+		</action>
+	</package>
+</struts>

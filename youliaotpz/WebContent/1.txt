@@ -1,0 +1,3 @@
+ManageAtActionaddinput.action
+
+/Manager/ChannelAdd.jsp

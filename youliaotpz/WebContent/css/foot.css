@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin:0;
+	padding:0;
+}
+.foot {
+	height: 120px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.bottom {
+	background: #187dd7;
+	height: 40px;
+	overflow: hidden;
+}
+.bottom ul {
+	list-style:none;
+	margin: 0 auto;
+	width: 960px;
+	height:40px;
+}
+.bottom ul li {
+	float:left;
+	width: 200px;
+	margin:10px 20px;
+	font-size:18px;
+}
+.info {
+	margin: 0 auto;
+	width: 960px;
+	height:80px;
+}
+.info span {
+	margin:50px 200px;
+}
+.bottom a:link {
+	color:#fff;
+	text-decoration:none;
+}
+.bottom a:visited {
+	color:#fff;
+}
+.bottom a:hover {
+	color:#00f;
+	text-decoration:underline;
+}
+.foot .info span a:link {
+	color:#000;
+	text-decoration:none;
+}
+.foot .info span a:visited {
+	color:#000;
+}
+.foot .info span a:hover {
+	color:#00f;
+	text-decoration:underline;
+}
+.info a:visited {
+	color:#000;
+}
+#guanggao{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}

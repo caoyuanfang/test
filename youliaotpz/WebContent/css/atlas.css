@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding:0;
+}
+.main {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+.leftMain {
+	float:left;
+	width: 640px;
+	overflow: hidden;
+}
+.article {
+	border:1px solid #CCC;
+}
+.article #atlasinfo {
+	height:130px;
+}
+.article #atlasinfo h3{
+	margin: 18px;
+}
+.article #atlasinfo span{
+	margin: 18px;
+}
+
+.article #pictureinfo {
+	height:100px;
+}
+#play {
+	height:450px;
+}
+/*--------------------right---------------------------------- */
+.rightMain {
+	margin-left:12px;
+	float:right;
+	width: 300px;
+	overflow: hidden;
+}
+
+/*--------------------tujixiagg---------------------------------- */
+
+#tujixiagg {
+	width: 640px;
+	height: 300px;
+	margin-top: 30px;
+}
+#tujixiagg #leftgg{
+	float:left;
+	width: 300px;
+	margin-left: 15px;
+}
+#tujixiagg #rightgg{
+	float:left;
+	width: 300px;
+	margin-left: 10px;
+}
+
+
+

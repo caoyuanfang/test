@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding:0;
+}
+.main {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+.leftMain {
+	float:left;
+	width: 640px;
+	overflow: hidden;
+}
+.articleList {
+	float:left;
+	width: 640px;
+	overflow: hidden;
+}
+.articleList ul {
+	list-style:none;
+}
+.articleList ul li {
+	width: 640px;
+	height: 460px;
+	padding:15px;
+	border:1px solid #CCC;
+	margin-bottom:18px;
+}
+.articleList ul li .title {
+	height:40px;
+	font-size:25px;
+	margin-bottom:8px;
+}
+.articleList ul li .context {
+	height:30px;
+	font-size:15px;
+	margin-bottom:8px;
+}
+.articleList ul li .img img{
+	height: 350px;
+	margin: 0 auto;
+}
+.tools {
+	margin-top:18px;
+	height:20px;
+}
+
+.articleList ul li a:link {
+	color:#000;
+	text-decoration:none;
+}
+.articleList ul li a:visited {
+	color:#000;
+}
+.articleList ul li a:hover {
+	color:#00f;
+	text-decoration:underline;
+}
+
+
+.page {
+	clear:both;
+	border:1px solid #CCC;
+}
+/*--------------------right---------------------------------- */
+.rightMain {
+	margin-left:12px;
+	float:right;
+	width: 300px;
+	overflow: hidden;
+}
